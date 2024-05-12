@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/pic2"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VitalLink"
+            android:textSize="54sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/green"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A digital bridge to patient wellness and the continuum of care."
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:paddingBottom="250sp"
+            android:textColor="@color/green"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/page1"
+
+
+
+
+            />
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Upload"
+            android:id="@+id/mainUpload"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/green"
+            app:cornerRadius = "30dp"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
